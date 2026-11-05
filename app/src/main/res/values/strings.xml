@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manuscript</string>
+    <string name="share_label">Save to Notion</string>
+    <string name="shortcut_new_page">New page</string>
+    <string name="shortcut_new_page_long">Create a new page</string>
+    <string name="shortcut_quick_note">Quick note</string>
+    <string name="shortcut_quick_note_long">Jot down a quick note</string>
+    <string name="shortcut_search">Search</string>
+    <string name="shortcut_search_long">Search your workspace</string>
+</resources>

@@ -1,0 +1,13 @@
+name = "manuscript-auth"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# OAuth client ID of your Notion public connection.
+NOTION_CLIENT_ID = "3efd872b-594c-814c-8a8c-0037f3377272"
+# Optional comma-separated allowlist; Notion already rejects redirect URIs not registered on the connection.
+ALLOWED_REDIRECT_URIS = ""
+APP_CALLBACK = "manuscript://oauth/callback"
+
+# The client secret is stored as an encrypted secret, never in this file:
+#   npx wrangler secret put NOTION_CLIENT_SECRET

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Left and right outer wings of the M -->
+    <path
+        android:fillColor="#E2DDFE"
+        android:pathData="M29,72L35,34L45,50L38,72Z" />
+    <path
+        android:fillColor="#E2DDFE"
+        android:pathData="M79,72L73,34L63,50L70,72Z" />
+    <!-- Center fountain pen nib forming the M peak -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,34L52.5,65L52.5,49A3.5,3.5 0,1 1,55.5 49L55.5,65L73,34L63,34L54,45L45,34Z" />
+    <!-- Four-point star sparkle beneath the nib -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,68Q55,72.5 59.5,73.5Q55,74.5 54,79Q53,74.5 48.5,73.5Q53,72.5 54,68Z" />
+</vector>
